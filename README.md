@@ -45,3 +45,7 @@ POST http://127.0.0.1:5000/webhook/receiver
 You need to use this as the base and setup the flask app. Integrate this with MongoDB (commented at `app/extensions.py`)
 
 *******************
+
+This is the final look for the web app for showcasing the last actions on the github repository <code> action-repo </code>. I have integrated both Push and Pull Requests. The server will update new information from MongoDB every 15 seconds as specified. 
+
+![image](https://user-images.githubusercontent.com/54668114/127480793-01e38da7-84fa-44d7-89ea-1ee4a1c8bb86.png)
