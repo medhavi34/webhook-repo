@@ -10,7 +10,7 @@ def get_date(date):
     if vals.day%10 == 1: 
         return vals.strftime('%dst %B %Y - %I:%M %p')
     elif vals.day%10 == 2: 
-        return vals.strftime('%dnd %B %Y - %I:%M %p')
+        return vals.strftime('%dnd %B %Y  - %I:%M %p')
     elif vals.day%10 == 3: 
         return vals.strftime('%drd %B %Y - %I:%M %p')
     else: 
