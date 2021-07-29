@@ -1,0 +1,1 @@
+window.setTimeout(function(){ document.location.reload(true); }, 15000);

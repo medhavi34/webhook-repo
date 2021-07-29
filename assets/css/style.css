@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(163, 163, 223);
+}
+
+#header{
+    text-align: center;
+    margin: 1em auto; 
+    font-family: sans-serif;
+    color: white;
+}
+
+#response{
+    text-align: center;
+    margin: 1em auto; 
+    font-family: sans-serif;
+}
